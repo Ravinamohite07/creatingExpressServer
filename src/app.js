@@ -6,6 +6,10 @@ app.use("/test",(req,res) => {
     res.send("hello from the test..!");
 });
 
+app.use("/hello",(req,res) =>{
+    res.send("hello!!");
+});
+
 app.use("/",(req,res) =>{
     res.send("hello from the server...!");
 });
